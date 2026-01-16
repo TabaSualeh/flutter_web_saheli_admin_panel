@@ -18,7 +18,7 @@ void main() async {
 
   await AppModel.instance.init();
 
-  const String environment = String.fromEnvironment('ENVIRONMENT', defaultValue: Environment.DEV);
+  const String environment = String.fromEnvironment('ENVIRONMENT', defaultValue: Environment.PROD);
   // Constants.appInitial = true;
 
   Environment().initConfig(environment);
