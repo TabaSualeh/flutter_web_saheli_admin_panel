@@ -7,5 +7,5 @@ class ProdConfig implements BaseConfig {
 
   @override
   // TODO: implement useHttps
-  bool get useHttps => false;
+  bool get useHttps => true;
 }
